@@ -14,7 +14,7 @@ export default {
     }
 
     const path = url.pathname.replace(/^\/v1/, "") + url.search;
-    const target = `https://znfojiukiplptkfujydb.supabase.co/functions/v1/api${path}`;
+    const target = `https://kiwwrdhvnqvhhavamrgn.supabase.co/functions/v1/api${path}`;
 
     const res = await fetch(target, {
       method: request.method,
